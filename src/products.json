@@ -1,0 +1,114 @@
+[
+	{
+		"id": "1",
+		"title": "La palette du goût",
+		"pictures": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"starter": {
+			"name": [
+                "Fricassée d'escargot",
+                "Foie gras de canard mi-cuit",
+                "Oeuf au plat" 
+            ],
+            "name-bot":[
+                "Au piment d'Espelette",
+                "Et ses copeaux de truffe noire",
+                "Assaisonné à la truffe sur lit de caviar"
+            ],
+			"price": [
+                "25",
+                "35",
+                "20"
+            ]
+		},
+		"dish": {
+			"name": [
+                "Filet de boeuf aux herbes",
+                "Parmentier de queue de boeuf",
+                "Filet de turbot" 
+            ],
+            "name-bot":[
+                "Accompagné de sa ribambelle de légumes",
+                "À la truffe noire sur sa purée de panais",
+                "Aux agrumes"
+            ],
+			"price": [
+                "40",
+                "35",
+                "44"
+            ]
+		},
+        "dessert": {
+			"name": [
+                "Paris-Brest",
+                "Macaron au chocolat d'exception",
+                "Mousse au chocolat " 
+            ],
+            "name-bot":[
+                "Revisité",
+                "Et glace à la vanille de Madagascar",
+                "Au piment d'Espelette et à la truffe noire"
+            ],
+			"price": [
+                "18",
+                "22",
+                "23"
+            ]
+		}
+	},
+    {
+		"id": "2",
+		"title": "Le délice des sens",
+		"pictures": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"starter": {
+			"name": [
+                "Tartare de thon",
+                "Bouchée de homard croustillant ",
+                "Velouté de cèpes" 
+            ],
+            "name-bot":[
+                "Assaisonné au yuzu",
+                "Et sa farandole de petits légumes",
+                "Aux truffes"
+            ],
+			"price": [
+                "25",
+                "35",
+                "20"
+            ]
+		},
+		"dish": {
+			"name": [
+                "Poulet rôti aux herbes de Provence ",
+                "Langouste rôtie",
+                "Côte de boeuf Angus" 
+            ],
+            "name-bot":[
+                "Et sa crème de truffe",
+                "Et ses légumes de saison",
+                "Et sa purée de panais"
+            ],
+			"price": [
+                "40",
+                "35",
+                "44"
+            ]
+		},
+        "dessert": {
+			"name": [
+                "Farandole de desserts",
+                "Crème brulée",
+                "Tiramisu" 
+            ],
+            "name-bot":[
+                "Du chef",
+                "Revisitée",
+                "À la noisette"
+            ],
+			"price": [
+                "18",
+                "22",
+                "23"
+            ]
+		}
+	}
+]
