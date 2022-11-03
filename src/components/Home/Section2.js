@@ -9,7 +9,7 @@ export default function Section2() {
                Découvrez des restaurants d'exception, séléctionnés par nos
                soins.
             </p>
-            <Link to="/error" className="exploration">
+            <Link to="/error" className="exploration survol">
                Explorer nos restaurants
             </Link>
          </section>

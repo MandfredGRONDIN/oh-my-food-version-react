@@ -1,44 +1,44 @@
 export default function Section3() {
    return (
       <div>
-         <section id="Section3">
+         <section id="section3">
             <h2>Fonctionnement</h2>
-            <div className="Function">
-               <div className="Function__Bars">
-                  <div className="Function__Bars-Num">
+            <div className="function">
+               <div className="function__bars">
+                  <div className="function__bars-num">
                      <i className="fa-solid fa-1"></i>
                   </div>
-                  <div className="Function__Inside">
-                     <div className="Function__Icone">
+                  <div className="function__inside">
+                     <div className="function__icone">
                         <i className="fa-solid fa-mobile-screen-button"></i>
                      </div>
-                     <div className="Function__P">
+                     <div className="function__p">
                         <p>Choisissez un restaurant</p>
                      </div>
                   </div>
                </div>
-               <div className="Function__Bars">
-                  <div className="Function__Bars-Num">
+               <div className="function__bars">
+                  <div className="function__bars-num">
                      <i className="fa-solid fa-2"></i>
                   </div>
-                  <div className="Function__Inside">
-                     <div className="Function__Icone">
+                  <div className="function__inside">
+                     <div className="function__icone">
                         <i className="fa-solid fa-list-ul"></i>
                      </div>
-                     <div className="Function__P">
+                     <div className="function__p">
                         <p>Composez votre menu</p>
                      </div>
                   </div>
                </div>
-               <div className="Function__Bars">
-                  <div className="Function__Bars-Num">
+               <div className="function__bars">
+                  <div className="function__bars-num">
                      <i className="fa-solid fa-3"></i>
                   </div>
-                  <div className="Function__Inside">
-                     <div className="Function__Icone">
+                  <div className="function__inside">
+                     <div className="function__icone">
                         <i className="fa-solid fa-store"></i>
                      </div>
-                     <div className="Function__P">
+                     <div className="function__p">
                         <p>Dégustez au restaurant</p>
                      </div>
                   </div>
