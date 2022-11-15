@@ -10,7 +10,7 @@
                 "Foie gras de canard mi-cuit",
                 "Oeuf au plat" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Au piment d'Espelette",
                 "Et ses copeaux de truffe noire",
                 "Assaisonné à la truffe sur lit de caviar"
@@ -27,7 +27,7 @@
                 "Parmentier de queue de boeuf",
                 "Filet de turbot" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Accompagné de sa ribambelle de légumes",
                 "À la truffe noire sur sa purée de panais",
                 "Aux agrumes"
@@ -44,7 +44,7 @@
                 "Macaron au chocolat d'exception",
                 "Mousse au chocolat " 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Revisité",
                 "Et glace à la vanille de Madagascar",
                 "Au piment d'Espelette et à la truffe noire"
@@ -67,7 +67,7 @@
                 "Bouchée de homard croustillant ",
                 "Velouté de cèpes" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Assaisonné au yuzu",
                 "Et sa farandole de petits légumes",
                 "Aux truffes"
@@ -84,7 +84,7 @@
                 "Langouste rôtie",
                 "Côte de boeuf Angus" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Et sa crème de truffe",
                 "Et ses légumes de saison",
                 "Et sa purée de panais"
@@ -101,7 +101,7 @@
                 "Crème brulée",
                 "Tiramisu" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Du chef",
                 "Revisitée",
                 "À la noisette"
@@ -125,7 +125,7 @@
                 "Homard et espuma de potiron",
                 "Foie gras de canard cuit entier"
             ],
-            "name-bot":[
+            "nameBot":[
                 "Accompagnés de leur crème à la truffe",
                 "Sur blini à la farine de blé noir",
                 "Mariné aux zestes d'orange",
@@ -144,7 +144,7 @@
                 "Langoustine poêlée",
                 "Mijoté de queue de boeuf" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Sur lit de purée de céleri-rave",
                 "Purée de patate douce",
                 "Et riz sauvage aux zestes de citron"
@@ -161,7 +161,7 @@
                 "Baba au rhum revisité",
                 "Tarte au citron meringuée" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Glace au caramel brun et sel de Guérande",
                 "Avec son coulis de citron",
                 "Déstructurée"
@@ -184,7 +184,7 @@
                 "Velouté de légumes d'antan",
                 "Soupe à l'oignon" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Aux zestes d'orange",
                 "Carotte, panais, topinambour",
                 "Revisitée"
@@ -201,7 +201,7 @@
                 "Magret de canard",
                 "Pigeonneau d’Ille-et-Vilaine" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Accompagnées d'une purée de panais",
                 "Et parmentier de pommes de terre",
                 "Sur son lit de gnocchis aux légumes"
@@ -218,7 +218,7 @@
                 "Fondant au chocolat",
                 "Millefeuille croustillant" 
             ],
-            "name-bot":[
+            "nameBot":[
                 "Et purée de noisettes",
                 "Revisitée",
                 "Myrtilles et pâte d’amande"

@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import Products from "../products.json";
 import Header from "../components/Menu/Header";
 import Heart from "../components/Heart";
+import Starter from "../components/Menu/Starter";
 import "../styles/Menu.css";
 
 export default function Menu() {
@@ -17,7 +18,7 @@ export default function Menu() {
    });
 
    return (
-      <div>
+      <div id="menu">
          {Products.filter((product) => params.id === product.title).map(
             (product, index) => (
                <div key={index}>
@@ -34,6 +35,11 @@ export default function Menu() {
                                  <Heart />
                               </div>
                            </div>
+                        </div>
+                        <div id="card__menu">
+                           <Starter card={product.starter} title="ENTRÉES" />
+                           <Starter card={product.dish} title="PLATS" />
+                           <Starter card={product.dessert} title="DESSERTS" />
                         </div>
                      </div>
                   </section>
