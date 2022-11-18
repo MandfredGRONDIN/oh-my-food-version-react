@@ -96,6 +96,11 @@ h1{
 /* Fin Heart */
 /* Fin du Main */
 /* Card menu */
+.card__title{
+    margin-left: 5%;
+    box-shadow: 0px 5px 0px -1px #99e2d0;
+    width: 40px;
+}
 .card-left{
     width: 100%;
     height: 65px;
@@ -113,7 +118,7 @@ h1{
     overflow: hidden;
     transition: all .5s ease-out;
 }
-.Dish-top{
+.dish-top{
     margin: 10px 0 5px 10px;
     font-weight: bold;
     font-size: 18px;
@@ -142,7 +147,7 @@ h1{
     margin-top: 30px;
     width: 100%;
 }
-#menu .card{
+.card__dish{
     display: flex;
     justify-content: space-between;
     width: 93%; 
@@ -156,9 +161,25 @@ h1{
     transform: translateY(10px);
     animation-fill-mode: both;
 }
+.btn__commander{
+    text-align: center;
+    margin: 65px 0 80px 0;
+}
+.commander{
+    border-radius: 25px;
+    padding: 14px 50px 14px 50px;
+    box-shadow: 1px 2px 10px #999;
+    background: linear-gradient(172deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 90%);
+    color: #eeeeee;
+}
 #card__menu{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+}
+@media all and (min-width:992px){
+    .section2{
+        max-width: 1400px;
+    }
 }

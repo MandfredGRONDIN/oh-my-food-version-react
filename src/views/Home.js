@@ -4,7 +4,6 @@ import Products from "../products.json";
 import Section1 from "../components/Home/Section1";
 import Section2 from "../components/Home/Section2";
 import Section3 from "../components/Home/Section3";
-import Footer from "../components/Footer";
 import Heart from "../components/Heart";
 import "../styles/Home.css";
 
@@ -15,24 +14,28 @@ export default function Home() {
          <Section2 />
          <Section3 />
          <section id="section4">
-            <div className="card__menu">
+            <div className="card__menu-home">
                {Products.map((product, key) => (
                   <Link
                      to={`/menu/${product.title}`}
-                     className="card"
+                     className="card-home"
                      item={product}
                      key={key}
                   >
-                     <div className="card__img">
+                     <div className="card__img-home">
                         <img src={product.pictures} alt="" />
-                        <p className="card__new">Nouveau</p>
+                        {product.new ? (
+                           <p className="card__new">{product.new} </p>
+                        ) : null}
                      </div>
-                     <div className="card__body">
-                        <div className="card__body-left">
-                           <span className="card__title">{product.title}</span>
+                     <div className="card__body-home">
+                        <div className="card__body-left-home">
+                           <span className="card__title-home">
+                              {product.title}
+                           </span>
                            <p>{product.place}</p>
                         </div>
-                        <div className="card__body-right">
+                        <div className="card__body-right-home">
                            <Heart />
                         </div>
                      </div>
@@ -40,7 +43,6 @@ export default function Home() {
                ))}
             </div>
          </section>
-         <Footer />
       </div>
    );
 }

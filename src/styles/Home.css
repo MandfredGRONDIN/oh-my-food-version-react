@@ -123,7 +123,7 @@ h1{
 h2{
     margin-left: 5%;
 }
-.card{
+.card-home{
     width: 90%;
     max-width: 710px;
     height: 240px;
@@ -133,17 +133,17 @@ h2{
     border-radius: 20px 20px 20px 20px;
     position: relative;
 }
-.card:hover{
+.card-home:hover{
     filter: brightness(1.15);
     box-shadow: 0px 0px 20px #999;
 }
-.card:hover .card__new{
+.card-home:hover .card__new{
     opacity: 0;
     transition: all .5s ease-in-out;
 }
 .card__new{
     position: absolute;
-    top: 0;
+    top: 8%;
     right: 4%;
     padding: 5px 11px 5px 11px;
     border: 1px solid #99e2d0;
@@ -153,42 +153,42 @@ h2{
     font-size: 14px;
     opacity: 1;
 }
-.card__menu{
+.card__menu-home{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
 }
-.card__img{
+.card__img-home{
     width: 100%;
     position: relative;
     overflow: hidden;
     height: 165px;
 }
-.card__img img{
+.card__img-home img{
     width: 103%;
     height: 217px;
     transform: translate(-2%, -24%);
     object-fit: cover;
 }
-.card__body{
+.card__body-home{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 97%;
     height: 85px;
 }
-.card__title{
+.card__title-home{
     margin-left: 10px;
     font-size: 18px;
     font-weight: bold;
 }
-.card__body-left p{
+.card__body-left-home p{
     margin: 5px 0 10px 10px;
     font-size: 16.5px;
 } 
 /* Partie Heart */
-.card__body-right{
+.card__body-right-home{
     width: 51px;
     height: 50px;
     display: flex;
@@ -280,12 +280,12 @@ li{
 /* Responsive Desktop */
 @media all and (min-width:992px)
 {
-    .card__menu{
+    .card__menu-home{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
     }
-    .card{
+    .card-home{
         width: 43%;
         margin: 20px;
     }

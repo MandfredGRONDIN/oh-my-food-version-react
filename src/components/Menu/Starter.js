@@ -7,19 +7,23 @@ export default function Starter({ card, title }) {
       <div className="card__menu">
          <p className="card__title">{title}</p>
          {starterName.map((test, index) => (
-            <div className={`card ${index}`}>
+            <div className={`card__dish ${index}`} key={index}>
                <div className="card-left">
                   <p className="dish-top">{test}</p>
                   <div className="dish-bot">
                      {starterBot
                         .filter((testbot, index2) => index === index2)
                         .map((testbot, index3) => (
-                           <p className="dish">{testbot}</p>
+                           <p className="dish" key={index3}>
+                              {testbot}
+                           </p>
                         ))}
                      {price
                         .filter((testprice, index2) => index === index2)
                         .map((priceDish, index3) => (
-                           <p className="price">{priceDish} €</p>
+                           <p className="price" key={index3}>
+                              {priceDish} €
+                           </p>
                         ))}
                   </div>
                </div>

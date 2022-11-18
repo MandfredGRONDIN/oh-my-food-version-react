@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import Products from "../products.json";
 import Header from "../components/Menu/Header";
 import Heart from "../components/Heart";
@@ -40,6 +40,11 @@ export default function Menu() {
                            <Starter card={product.starter} title="ENTRÉES" />
                            <Starter card={product.dish} title="PLATS" />
                            <Starter card={product.dessert} title="DESSERTS" />
+                        </div>
+                        <div className="btn__commander">
+                           <Link to={"/error"} className="commander survol">
+                              Commander
+                           </Link>
                         </div>
                      </div>
                   </section>

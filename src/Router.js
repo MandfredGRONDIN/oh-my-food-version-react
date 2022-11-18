@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./views/Home";
+import Footer from "./components/Footer";
 import Menu from "./views/Menu";
 import Error from "./views/Error";
 
@@ -12,6 +13,7 @@ export default function Routing() {
             <Route path="/menu/:id" element={<Menu />} />
             <Route path="/*" element={<Error />} />
          </Routes>
+         <Footer />
       </div>
    );
 }
