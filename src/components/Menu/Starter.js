@@ -1,13 +1,13 @@
 export default function Starter({ card, title }) {
-   console.log(title);
    const starterName = card.name;
    const starterBot = card.nameBot;
    const price = card.price;
+
    return (
       <div className="card__menu">
          <p className="card__title">{title}</p>
          {starterName.map((test, index) => (
-            <div className={`card__dish ${index}`} key={index}>
+            <div className={"card__dish"} key={index}>
                <div className="card-left">
                   <p className="dish-top">{test}</p>
                   <div className="dish-bot">
@@ -26,6 +26,9 @@ export default function Starter({ card, title }) {
                            </p>
                         ))}
                   </div>
+               </div>
+               <div className="card-right">
+                  <i className="fa-solid fa-circle-check check"></i>
                </div>
             </div>
          ))}

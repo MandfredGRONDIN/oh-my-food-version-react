@@ -71,6 +71,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .heart__like{
     font-size: 0;
@@ -80,6 +81,17 @@ h1{
     background: -webkit-linear-gradient(95deg, rgba(255,121,218,1) 4%, rgba(147,86,220,1) 43%); /* Permet de modifier la couleur du coeur cacher */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.heart__liked{
+    font-size: 21px;
+    left: 0;
+    top: 0;
+    background: -webkit-linear-gradient(95deg, rgba(255,121,218,1) 4%, rgba(147,86,220,1) 43%); /* Permet de modifier la couleur du coeur cacher */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heart__liked,.heart{
+    position: absolute;
 }
 .heart{
     font-size: 21px;
@@ -117,6 +129,26 @@ h1{
     font-size: 21px;
     overflow: hidden;
     transition: all .5s ease-out;
+}
+.check{
+    transform: rotate(0deg);
+}
+.card__dish:hover .card-right{
+    width: 15%;
+}
+.card__dish:hover .check{
+    transform: rotate(360deg);
+    transition: all .5s ease-out;
+    animation-fill-mode: both;
+}
+.card__dish:hover .card-left{
+    width: 85%;
+}
+.card__dish:active .card-right{
+    width: 15%;
+}
+.card__dish:active .card-left{
+    width: 85%;
 }
 .dish-top{
     margin: 10px 0 5px 10px;
